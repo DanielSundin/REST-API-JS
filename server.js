@@ -1,9 +1,12 @@
 const express = require('express');
+const beerRouter = require('./beer.router')
 
 
 const app = express();
 
 app.use(express.json());
+
+app.use(beerRouter);
 
 app.use((req, res) =>  res.status(404).json('couldnt find'));
 
