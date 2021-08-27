@@ -1,1 +1,30 @@
 GET http://localhost:3000/api/beer
+
+###
+
+GET http://localhost:3000/api/beer/1
+
+###
+
+POST http://localhost:3000/api/beer
+Content-Type: application/json
+
+{
+    "name": "Sour and Silly",
+    "abv": 4,
+    "ibu": 30
+}
+
+###
+
+PUT http://localhost:3000/api/beer/1
+Content-Type: application/json
+
+{
+    "abv": 3
+}
+
+###
+
+DELETE http://localhost:3000/api/beer/1
+Content-Type: application/json
