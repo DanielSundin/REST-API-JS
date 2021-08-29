@@ -16,4 +16,5 @@
 * Readme-fil finns
 * inlämnad i tid
 
+npm start för att starta programmet
 /Daniel Sundin
